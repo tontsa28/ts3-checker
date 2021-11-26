@@ -2,7 +2,6 @@
 const express = require("express");
 const dotenv = require("dotenv").config();
 const fs = require("fs");
-const { pid } = require("process");
 const app = express();
 
 // Environment variables
