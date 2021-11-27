@@ -8,8 +8,8 @@ const app = express();
 const port = process.env.PORT;
 const pidfile = process.env.PIDFILE;
 
-// Get root request
-app.get("/", async (req, res) => {
+// Get check request
+app.get("/check", async (req, res) => {
 
     // If TeamSpeak pidfile was found
     if (fs.existsSync(pidfile)) {
