@@ -9,7 +9,7 @@ const port = process.env.PORT;
 const pidfile = process.env.PIDFILE;
 
 // Get check request
-app.get("/check", async (req, res) => {
+app.get("/", async (req, res) => {
 
     // If TeamSpeak pidfile was found
     if (fs.existsSync(pidfile)) {

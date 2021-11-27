@@ -13,6 +13,6 @@ You can create your own `.env` file in which you can then store your port variab
 - `PORT=YOUR_PORT`
 - For example: `PORT=3001`
 
-You also need to set the path to the pidfile, like so:
+You also need to set the FULL path to the pidfile, like so:
 - `PIDFILE="/the/path/to/your/pidfile"`
 - For example: `PIDFILE="/home/user/teamspeak-server/ts3server.pid"`
